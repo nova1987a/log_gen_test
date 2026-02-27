@@ -6,7 +6,7 @@ import sys
 def run_framework():
     print("\U0001F680 Start automated framework...")
 
-    # 定義執行參數
+    # Define parameters
     args = [
         "tests/",                     # test path
         "--html=reports/report.html", # generate HTML report
